@@ -4,6 +4,10 @@ header {
   overflow: hidden;
   margin: 0 115px;
   padding: 55px 60px 95px;
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 h1 {
