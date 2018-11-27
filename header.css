@@ -25,3 +25,12 @@ a {
   color: inherit;
   padding-left: 60px;
 }
+
+button {
+  width: 200px;
+  height: 60px;
+  background-color: #252c41;
+  color: #fff;
+  font-family: Arial, "Roboto", sans-serif;
+  font-size: 20px;
+}
