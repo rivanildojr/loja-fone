@@ -10,7 +10,7 @@ header {
   padding: 55px 60px 95px;
   width: 1000px;
   position: absolute;
-  top: 50%;
+  top: 50vh;
   transform: translateY(-50%);
 }
 
@@ -36,13 +36,4 @@ a {
 
 .last {
   margin-right: 0;
-}
-
-button {
-  width: 200px;
-  height: 60px;
-  background-color: #252c41;
-  color: #fff;
-  font-family: Arial, "Roboto", sans-serif;
-  font-size: 20px;
 }
