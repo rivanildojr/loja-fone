@@ -2,7 +2,7 @@ body {
   position: relative;
 }
 
-header {
+.header-store {
   background-color: #e24647;
   color: #fff;
   overflow: hidden;
@@ -14,20 +14,20 @@ header {
   transform: translateY(-50%);
 }
 
-h1 {
+.title {
   font-family: Arial, "Roboto", sans-serif;
   font-size: 40px;
   line-height: 48px;
   float: left;
 }
 
-nav {
+.navigation {
   font-size: 21px;
   font-family: "Segoe UI", "Roboto", sans-serif;
   float: right;
 }
 
-a {
+.action {
   text-decoration: none;
   line-height: 28px;
   color: inherit;
