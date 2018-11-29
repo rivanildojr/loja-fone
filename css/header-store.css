@@ -1,17 +1,15 @@
-body {
-  position: relative;
-}
-
 .header-store {
   background-color: #e24647;
   color: #fff;
   overflow: hidden;
-  margin: 0 115px;
   padding: 55px 60px 95px;
-  width: 1000px;
+  width: 80%;
+  /* top bottom => X
+      left right => Y*/
   position: absolute;
-  top: 50vh;
-  transform: translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .title {
