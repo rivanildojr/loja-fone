@@ -1,28 +1,30 @@
 .header-store {
   color: #fff;
   overflow: hidden;
+  margin-bottom: 138px;
 }
 
-.title {
+.header-store >  .title {
   font-family: Arial, "Roboto", sans-serif;
   font-size: 40px;
   line-height: 48px;
   float: left;
+  text-transform: uppercase;
 }
 
-.navigation {
+.header-store > .navigation {
   font-size: 21px;
   font-family: "Segoe UI", "Roboto", sans-serif;
   float: right;
 }
 
-.action {
+.header-store .action {
   text-decoration: none;
   line-height: 28px;
   color: inherit;
   margin-right: 60px;
 }
 
-.last {
+.header-store .action.-last {
   margin-right: 0;
 }
