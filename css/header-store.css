@@ -12,6 +12,21 @@
   float: left;
   text-transform: uppercase;
 }
+.header-store .search{
+  float: left;
+  margin-left: 314px;
+}
+
+.header-store .name{
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.header-store .line{
+  width: 358px;
+  color: #fff;
+}
 
 .header-store > .navigation {
   font-size: 21px;
