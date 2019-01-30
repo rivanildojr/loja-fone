@@ -30,6 +30,10 @@
   margin-bottom: 72px;
 }
 
+.description-product > .text.-more{
+  margin-bottom: 0;
+}
+
 .description-product  .contrast {
   text-transform: uppercase;
   float: left;
