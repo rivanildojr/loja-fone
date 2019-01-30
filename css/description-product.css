@@ -8,17 +8,17 @@
   margin-bottom: 50px;
 }
 
-.description-product > .classification {
-  margin-bottom: 25px;
-}
-
-.description-product .img{
-  margin-right: 9px;
-}
-
 .description-product > .item {
   font-size: 20px;
   margin-bottom: 28px;
+}
+
+.description-product > .item.-star{
+  margin-bottom: 10px;
+}
+
+.description-product > .item.-star + .item{
+  margin-left: 7px;
 }
 
 .description-product > .item.-info {

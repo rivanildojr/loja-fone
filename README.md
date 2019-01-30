@@ -50,6 +50,12 @@
 </dl>
 ```
 
+- `input` - Tag para atribuir dados ao sistema
+
+```
+<input class="name" type="name" placeholder="Name">
+```
+
 # CSS
 
 É uma linguagem de estilo, isso que dizer que ela tem as seguintes responsibilidade:
@@ -196,4 +202,9 @@
 * `.nomeClassPai` > `.nomeClassFilhos`:
    - Aplica a todos os filhos diretos da classe `.nomeClassPai` quem contém a classe `.nomeClassFilhos`
 
+* `nomeClass + nomeClassIrmao`:
+   - Aplica ao irmão direto(logo abaixo) da classe `nomeClass`..
+
+* `[type="search"]`:
+   - Aplica a todos os elementos com o tipo search.
 
