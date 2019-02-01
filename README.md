@@ -150,6 +150,14 @@
       - `border-box`: atribui a borda ao tamanho do elemento, deixando assim a largura e altura menor que a definida, pois teremos: (width - espessuraDaBorda) (height - espessuraDaBorda)
          - Nesse caso, verificar o line-height, pois ele tem esse tamanho agora = (height - espessuraDaBorda)
 
+* `cursor`: Define o tipo de cursor em um elemento, como por exemplo o `cursor:pointer` e `cursor:grab`.
+
+* `transition`: Aplica a transformação nos elementos, que serão mudados. Recebe a propriedade que será mudada, o tempo para o efeito, e a proporção desse efeito.
+
+```
+transition: all 300ms linear; 
+```
+
 ### Tipos de Display
 
 * `inline`: 
@@ -207,4 +215,11 @@
 
 * `[type="search"]`:
    - Aplica a todos os elementos com o tipo search.
+
+* `:hover`: Aplica o estilo aos elementos quando o mouse passa sobre.
+
+* `:focus`: Aplica aos elementos que estão focados, como por exemplo uma navegação por "tab".
+
+* `:active`: Aplica aos elementos que estão ativos, um exemplo é no clique do mouse.
+
 
