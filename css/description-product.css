@@ -15,9 +15,14 @@
 
 .description-product > .item.-heart{
   position: absolute;
-  transform: translateX(calc(-100% - 47px));
+  transform: translateX(-100%);
+  left: -47px;
   top: 9px;
   cursor: pointer;
+}
+
+.description-product > .item.-heart:hover{
+  transform: translateX(-100%) scale(1.4);
 }
 
 .description-product > .item.-star{
@@ -26,6 +31,10 @@
 
 .description-product > .item.-star > .classification{
   cursor: pointer;
+}
+
+.description-product > .item.-star > .classification:hover {
+  transform: scale(1.1);
 }
 
 .description-product > .item.-star + .item{
