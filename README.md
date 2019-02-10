@@ -222,4 +222,10 @@ transition: all 300ms linear;
 
 * `:active`: Aplica aos elementos que estão ativos, um exemplo é no clique do mouse.
 
+## Valor de Especificidade
+
+* Seletor de ID => 100
+* Seletor de class / Pseudo seletores => 10
+* Seletor de Tag => 1
+
 
