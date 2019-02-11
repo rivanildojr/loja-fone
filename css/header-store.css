@@ -33,6 +33,10 @@
   margin-right: 65px;
 }
 
+.header-store [type="search"]::placeholder {
+  color: inherit;
+}
+
 .header-store .action {
   text-decoration: none;
   line-height: 28px;
