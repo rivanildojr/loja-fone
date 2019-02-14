@@ -1,19 +1,15 @@
 const $heart = window.document.querySelector(".-heart");
 const $classification = document.querySelectorAll(".classification");
-console.log($classification);
-
-$classification.forEach(star => {
-  console.log(star);
-});
 
 $heart.addEventListener("click", handleClick);
 
-$classification.forEach(star => {
+$classification.forEach((star, index) => {
   star.addEventListener("click", () => {
-    if (star.src == "http://127.0.0.1:5500/img/star-active.png"){
-       star.src = "img/star.png";
-    } else {
-      star.src = "img/star-active.png";
+    for(let i = 0; i <= index ; i++){
+      $classification[i].src = "img/star-active.png";
+    }
+    for(let i = index +1; i < 5 ; i++){
+      $classification[i].src = "img/star.png";
     }
   });
 });
