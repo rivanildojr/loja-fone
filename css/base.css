@@ -1,8 +1,12 @@
-html, body{
+html,
+body {
   height: 100%;
 }
 
 body {
   background-color: #252a34;
   background: linear-gradient(#252a34, #ff2e63);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
