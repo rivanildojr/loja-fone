@@ -10,3 +10,8 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+@media (max-width: 348px) {
+  body {
+    overflow-x: hidden;
+  }
+}
